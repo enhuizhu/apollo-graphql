@@ -14,6 +14,7 @@ class UserAPI extends DataSource {
    * here, so we can know about the user making requests
    */
   initialize(config) {
+    console.log('config', config);
     this.context = config.context;
   }
 
